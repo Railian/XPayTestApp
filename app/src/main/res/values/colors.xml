@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#393939</color>
+    <color name="colorPrimaryDark">#242422</color>
+    <color name="colorAccent">#ffbb0a</color>
+    <color name="colorGreyPrimary">#7f7f7f</color>
+    <color name="colorGreyPrimaryDark">#676767</color>
+    <color name="ic_launcher_background">@color/colorPrimaryDark</color>
+</resources>

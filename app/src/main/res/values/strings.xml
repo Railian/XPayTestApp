@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">XPay Test App</string>
+    <string name="label_login">Test Application for XPay</string>
+
+    <string name="description_xpay_logo">XPay Logo</string>
+    <string name="prompt_login">Login*</string>
+    <string name="prompt_password">Password*</string>
+    <string name="helper_text_login">*Required. At least 3 characters</string>
+    <string name="helper_text_password">*Required. At least 4 characters</string>
+    <string name="action_save_credentials">Save Credentials</string>
+    <string name="action_check_credentials">Check Credentials</string>
+    <string name="action_fingerprint_authentication">Fingerprint Authentication</string>
+    <string name="info_touch_sensor_to_authenticate">Touch sensor to authenticate</string>
+    <string name="message_credentials_verified">Credentials are verified!</string>
+    <string name="message_credentials_not_verified">Credentials are not verified</string>
+    <string name="message_fingerprint_auth_failed">Something went wrong. Fingerprint authentication failed.</string>
+    <string name="message_credentials_saved">Credentials are saved :)</string>
+    <string name="message_credentials_empty">There are no saved credentials :(</string>
+    <string name="message_login_required">login is required</string>
+    <string name="message_login_too_short">login is too short. At least 3 characters required</string>
+    <string name="message_login_too_long">login is too long. No more than 20 characters</string>
+    <string name="message_password_required">password is required</string>
+    <string name="message_password_too_short">password is too short. At least 4 characters required</string>
+    <string name="message_password_too_long">password is too long. No more than 20 characters</string>
+
+</resources>

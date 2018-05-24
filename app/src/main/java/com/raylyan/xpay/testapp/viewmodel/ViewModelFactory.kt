@@ -1,8 +1,8 @@
 package com.raylyan.xpay.testapp.viewmodel
 
+import android.arch.lifecycle.ViewModel
+import android.arch.lifecycle.ViewModelProvider
 import android.content.Context
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import com.raylyan.xpay.testapp.domain.service.CryptoSystemService
 import com.raylyan.xpay.testapp.domain.service.FingerprintSystemService
 import com.raylyan.xpay.testapp.domain.service.PreferencesSystemService

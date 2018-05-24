@@ -1,11 +1,10 @@
 package com.raylyan.xpay.testapp.extention
 
+import android.support.design.widget.TextInputLayout
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
-import androidx.core.content.systemService
-import com.google.android.material.textfield.TextInputLayout
 
 var EditText.content: String
     get() = text.toString()

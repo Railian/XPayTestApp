@@ -1,9 +1,9 @@
 package com.raylyan.xpay.testapp.view
 
+import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProviders
-import com.google.android.material.snackbar.Snackbar
+import android.support.design.widget.Snackbar
+import android.support.v7.app.AppCompatActivity
 import com.raylyan.xpay.testapp.R
 import com.raylyan.xpay.testapp.domain.entity.Credentials
 import com.raylyan.xpay.testapp.extention.*

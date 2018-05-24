@@ -1,7 +1,34 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+
 apply plugin: 'java-library'
 apply plugin: 'kotlin'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+
+sourceCompatibility = "$java_version"
+targetCompatibility = "$java_version"
+
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "$java_version"
+    }
+}
+
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "$java_version"
+    }
 }

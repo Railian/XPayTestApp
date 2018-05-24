@@ -1,3 +1,3 @@
-# XPayTestApp
+# XPay Test Application
 
-[Download XPay test application APK](https://github.com/Raylyan/XPayTestApp/raw/master/apk/xpay-app-debug.apk)
+[Download APK](https://github.com/Raylyan/XPayTestApp/raw/master/app-release-unsigned.apk)
